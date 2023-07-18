@@ -99,7 +99,7 @@ button:active {
 }
 
 
-@media all and (max-width:450px){
+@media (max-width:450px){
   body{
     display: block;
     background-image: linear-gradient(to bottom right, red , blue);
