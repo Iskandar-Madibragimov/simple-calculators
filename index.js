@@ -17,20 +17,20 @@ document.getElementById("submitBmi").onclick = function () {
 };
 
 // The HYpotonuse Calculator
-function hypotonuse() {
+function calculateHypotenuse() {
   let sideA = document.getElementById("sideA").value;
   let sideB = document.getElementById("sideB").value;
 
   let sideC = sideA ** 2 + sideB ** 2;
 
-  if (sideC != "") {
+  if (!isNaN(sideC)) {
     document.getElementById("hypotonuse").innerHTML =
       Math.sqrt(sideC).toFixed(2);
   }
 }
 
 // Temperature converter
-function celsius() {
+function convertToFahrenheit () {
   let celsius = document.getElementById("celsius").value;
   let fahrenheit = celsius * (9 / 5) + 32;
 
