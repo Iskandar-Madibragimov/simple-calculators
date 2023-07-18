@@ -97,3 +97,18 @@ button:active {
 #info {
   margin-top: 10px;
 }
+
+
+@media all and (max-width:320px){
+  body{
+    display: block;
+    background-image: linear-gradient(to bottom right, red , blue);
+    width: 100vw;
+    height: fit-content;
+
+  }
+  .bmi{
+    margin-top: 20px;
+    
+  }
+}
